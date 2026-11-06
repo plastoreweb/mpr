@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NextGen mParivahan - Apps on Google Play</title>
 
-    <!-- Exact Play Store Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,7 +56,6 @@
         position: relative;
       }
 
-      /* Top Bar */
       .top-bar {
         display: flex;
         justify-content: space-between;
@@ -79,7 +77,6 @@
         align-items: center;
       }
 
-      /* Header */
       .app-header {
         padding: 12px 24px 16px;
         display: flex;
@@ -123,7 +120,6 @@
         color: var(--text-sec);
       }
 
-      /* Stats Scroll Row */
       .stats-scroll {
         overflow-x: auto;
         scrollbar-width: none;
@@ -187,7 +183,6 @@
         font-size: 12px;
       }
 
-      /* Content Rating Box - Letter A */
       .rating-box {
         border: 1.5px solid var(--text-main);
         border-radius: 3px;
@@ -202,7 +197,6 @@
         font-family: "Google Sans", sans-serif;
       }
 
-      /* Action Container - BIG INSTALL BUTTON */
       .action-container {
         padding: 0 24px 24px;
       }
@@ -211,9 +205,9 @@
         background: var(--play-blue);
         color: #fff;
         border: none;
-        padding: 12px 0; /* Increased padding for height */
-        border-radius: 24px; /* More pill-shaped */
-        font-size: 15px; /* Larger text */
+        padding: 12px 0;
+        border-radius: 24px;
+        font-size: 15px;
         font-weight: 500;
         font-family: "Google Sans", sans-serif;
         cursor: pointer;
@@ -228,7 +222,6 @@
         background: #0842a0;
       }
 
-      /* Screenshots */
       .screenshots-scroll {
         display: flex;
         gap: 12px;
@@ -252,7 +245,6 @@
         cursor: pointer;
       }
 
-      /* Sections */
       .section {
         padding: 0 24px 32px;
       }
@@ -291,7 +283,6 @@
         overflow: hidden;
       }
 
-      /* Tags - Adjusted for Communication App */
       .tags-row {
         display: flex;
         gap: 8px;
@@ -307,7 +298,6 @@
         color: var(--text-sec);
       }
 
-      /* Data Safety */
       .safety-desc {
         font-size: 14px;
         color: var(--text-sec);
@@ -355,7 +345,6 @@
         display: inline-block;
       }
 
-      /* Ratings & Reviews */
       .reviews-info {
         font-size: 12px;
         color: var(--text-sec);
@@ -439,7 +428,6 @@
         width: 0%;
       }
 
-      /* AI Summary Section - Tailored for Communication */
       .ai-summary-header {
         font-size: 14px;
         font-weight: 500;
@@ -479,7 +467,6 @@
         cursor: pointer;
       }
 
-      /* Review Cards */
       .review-card {
         padding: 24px 0 0;
       }
@@ -558,7 +545,6 @@
         cursor: pointer;
       }
 
-      /* Fullscreen Modal */
       .modal-overlay {
         position: fixed;
         top: 0;
@@ -601,7 +587,6 @@
   </head>
   <body>
     <div class="app-wrapper">
-      <!-- Exact Play Store Top Bar -->
       <header class="top-bar">
         <span class="material-symbols-outlined">arrow_back</span>
         <div class="top-bar-right">
@@ -610,13 +595,8 @@
         </div>
       </header>
 
-      <!-- Header -->
       <div class="app-header">
-        <img
-          class="app-icon"
-          src="img/icon.png"
-          alt="App Icon"
-        />
+        <img class="app-icon" src="img/icon.png" alt="App Icon" />
         <div class="app-title-group">
           <h1 class="app-title g-sans">NextGen mParivahan</h1>
           <a href="#" class="app-developer">National Informatics Centre.</a>
@@ -624,7 +604,6 @@
         </div>
       </div>
 
-      <!-- Exact Stats Row Layout -->
       <div class="stats-scroll">
         <div class="stats-row">
           <div class="stat-item">
@@ -637,23 +616,20 @@
           </div>
 
           <div class="stat-item">
-              <div class="stat-top">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 20 20" fill="none">
-                      <path d="M4.41669 14.9792L4.41669 7.91667L5.66669 7.91667L5.66669 14.9792L4.41669 14.9792ZM9.45835 14.9792L9.45835 7.91667L10.7084 7.91667L10.7084 14.9792L9.45835 14.9792ZM1.66669 17.4792L1.66669 16.2292L18.3334 16.2292L18.3334 17.4792L1.66669 17.4792ZM14.3334 14.9792L14.3334 7.91667L15.5834 7.91667L15.5834 14.9792L14.3334 14.9792ZM1.66669 6.66667L1.66669 5.5625L10 0.8125L18.3334 5.5625L18.3334 6.66667L1.66669 6.66667ZM4.45835 5.41667L15.5417 5.41667L10 2.25L4.45835 5.41667Z" fill="currentColor"/>
-                  </svg>
-              </div>
-          
-              <div class="stat-bottom">
-                  Government 
-                  <span class="material-symbols-outlined">info</span>
-              </div>
+            <div class="stat-top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 20 20" fill="none">
+                <path d="M4.41669 14.9792L4.41669 7.91667L5.66669 7.91667L5.66669 14.9792L4.41669 14.9792ZM9.45835 14.9792L9.45835 7.91667L10.7084 7.91667L10.7084 14.9792L9.45835 14.9792ZM1.66669 17.4792L1.66669 16.2292L18.3334 16.2292L18.3334 17.4792L1.66669 17.4792ZM14.3334 14.9792L14.3334 7.91667L15.5834 7.91667L15.5834 14.9792L14.3334 14.9792ZM1.66669 6.66667L1.66669 5.5625L10 0.8125L18.3334 5.5625L18.3334 6.66667L1.66669 6.66667ZM4.45835 5.41667L15.5417 5.41667L10 2.25L4.45835 5.41667Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="stat-bottom">
+              Government
+              <span class="material-symbols-outlined">info</span>
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-top">
-              <span class="material-symbols-outlined" style="font-size: 18px"
-                >download</span
-              >
+              <span class="material-symbols-outlined" style="font-size: 18px">download</span>
             </div>
             <div class="stat-bottom">6.25 MB</div>
           </div>
@@ -665,65 +641,20 @@
         </div>
       </div>
 
-      <!-- Bigger, Pill-Shaped Install Button -->
       <div class="action-container">
         <a href="app/NextGen_mParivahan.apk" class="btn-install">Install</a>
       </div>
 
-      <!-- Screenshots -->
       <div class="screenshots-scroll">
-                <img
-          src="img/1.jpg"
-          class="screenshot"
-          data-index="0"
-          onclick="openModal(this.dataset.index)"
-         
-        />
-                <img
-          src="img/2.jpg"
-          class="screenshot"
-          data-index="1"
-          onclick="openModal(this.dataset.index)"
-         
-        />
-                <img
-          src="img/3.jpg"
-          class="screenshot"
-          data-index="2"
-          onclick="openModal(this.dataset.index)"
-         
-        />
-                <img
-          src="img/4.jpg"
-          class="screenshot"
-          data-index="2"
-          onclick="openModal(this.dataset.index)"
-         
-        />
-                <img
-          src="img/5.jpg"
-          class="screenshot"
-          data-index="2"
-          onclick="openModal(this.dataset.index)"
-         
-        />
-		                <img
-          src="img/6.jpg"
-          class="screenshot"
-          data-index="2"
-          onclick="openModal(this.dataset.index)"
-         
-        />
-                <img
-          src="img/7.jpg"
-          class="screenshot"
-          data-index="2"
-          onclick="openModal(this.dataset.index)"
-         
-        />
-              </div>
+        <img src="img/1.jpg" class="screenshot" data-index="0" onclick="openModal(this.dataset.index)" />
+        <img src="img/2.jpg" class="screenshot" data-index="1" onclick="openModal(this.dataset.index)" />
+        <img src="img/3.jpg" class="screenshot" data-index="2" onclick="openModal(this.dataset.index)" />
+        <img src="img/4.jpg" class="screenshot" data-index="2" onclick="openModal(this.dataset.index)" />
+        <img src="img/5.jpg" class="screenshot" data-index="2" onclick="openModal(this.dataset.index)" />
+        <img src="img/6.jpg" class="screenshot" data-index="2" onclick="openModal(this.dataset.index)" />
+        <img src="img/7.jpg" class="screenshot" data-index="2" onclick="openModal(this.dataset.index)" />
+      </div>
 
-      <!-- About Section -->
       <div class="section">
         <div class="section-header">
           <h2 class="section-title g-sans">About this app</h2>
@@ -735,11 +666,10 @@
           <b>Provides Transport Service access to citizens through a mobile-based application. This app empowers citizen with instant access to various information, services and utilities related to the Transport Sector. Aimed to bring convenience to citizen and transparency in the system. It is a genuine government app for all India RTO vehicle registration number search. It provides complete information about any vehicle which is registered in India.</b>
         </p>
         <div class="tags-row">
-                    <div class="tag">Productivity</div>
-                  </div>
+          <div class="tag">Productivity</div>
+        </div>
       </div>
 
-      <!-- Data Safety -->
       <div class="section">
         <div class="section-header">
           <h2 class="section-title g-sans">Data safety</h2>
@@ -759,18 +689,14 @@
             <span class="material-symbols-outlined">share</span>
             <div class="safety-text">
               <h4>This app may share these data types with third parties</h4>
-              <p>
-                App activity, App info and performance and Device or other IDs
-              </p>
+              <p>App activity, App info and performance and Device or other IDs</p>
             </div>
           </div>
           <div class="safety-row">
             <span class="material-symbols-outlined">cloud_upload</span>
             <div class="safety-text">
               <h4>This app may collect these data types</h4>
-              <p>
-                App activity, App info and performance and Device or other IDs
-              </p>
+              <p>App activity, App info and performance and Device or other IDs</p>
             </div>
           </div>
           <div class="safety-row">
@@ -790,7 +716,6 @@
         </div>
       </div>
 
-      <!-- Ratings & Reviews -->
       <div class="section">
         <div class="section-header">
           <h2 class="section-title g-sans">Ratings and reviews</h2>
@@ -802,56 +727,44 @@
         <div class="reviews-info">
           Ratings and reviews are verified and are from people who use the same
           type of device that you use
-          <span class="material-symbols-outlined" style="font-size: 14px"
-            >info</span
-          >
+          <span class="material-symbols-outlined" style="font-size: 14px">info</span>
         </div>
 
-        <!-- Rating Overview -->
         <div class="rating-overview">
           <div class="rating-left">
             <div class="rating-score">4.8</div>
             <div class="rating-stars">
-              <span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined empty">star</span>            </div>
+              <span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined filled">star</span><span class="material-symbols-outlined empty">star</span>
+            </div>
             <div class="rating-count">7.1L reviews</div>
           </div>
 
           <div class="bars-container">
-                        <div class="bar-row">
+            <div class="bar-row">
               <span class="bar-num">5</span>
-              <div class="bar-track">
-                <div class="bar-fill" style="width: 70%"></div>
-              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 70%"></div></div>
             </div>
-                        <div class="bar-row">
+            <div class="bar-row">
               <span class="bar-num">4</span>
-              <div class="bar-track">
-                <div class="bar-fill" style="width: 15%"></div>
-              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 15%"></div></div>
             </div>
-                        <div class="bar-row">
+            <div class="bar-row">
               <span class="bar-num">3</span>
-              <div class="bar-track">
-                <div class="bar-fill" style="width: 8%"></div>
-              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 8%"></div></div>
             </div>
-                        <div class="bar-row">
+            <div class="bar-row">
               <span class="bar-num">2</span>
-              <div class="bar-track">
-                <div class="bar-fill" style="width: 4%"></div>
-              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 4%"></div></div>
             </div>
-                        <div class="bar-row">
+            <div class="bar-row">
               <span class="bar-num">1</span>
-              <div class="bar-track">
-                <div class="bar-fill" style="width: 3%"></div>
-              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 3%"></div></div>
             </div>
-                      </div>
+          </div>
         </div>
 
         <div>
-                    <div class="review-card">
+          <div class="review-card">
             <div class="reviewer-header">
               <div class="reviewer-info">
                 <div class="reviewer-avatar" style="background: #1a73e8">A</div>
@@ -859,27 +772,23 @@
               </div>
               <span class="material-symbols-outlined">more_vert</span>
             </div>
-
             <div class="review-sub">
               <div class="rating-stars" style="margin: 0">
-                <span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span>              </div>
+                <span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span>
+              </div>
               <span class="review-date">June 14, 2026</span>
             </div>
-
             <p class="review-body">I used NextGen mParivahan to check my vehicle challan details and paid all my pending dues easily. The process was smooth and very fast.</p>
-
             <div class="helpful-row">10 people found this helpful</div>
             <div class="helpful-actions">
-              <div class="helpful-row" style="margin: 0">
-                Was this review helpful?
-              </div>
+              <div class="helpful-row" style="margin: 0">Was this review helpful?</div>
               <div class="helpful-btns">
                 <button class="btn-pill">Yes</button>
                 <button class="btn-pill">No</button>
               </div>
             </div>
           </div>
-                    <div class="review-card">
+          <div class="review-card">
             <div class="reviewer-header">
               <div class="reviewer-info">
                 <div class="reviewer-avatar" style="background: #fdd835">R</div>
@@ -887,27 +796,23 @@
               </div>
               <span class="material-symbols-outlined">more_vert</span>
             </div>
-
             <div class="review-sub">
               <div class="rating-stars" style="margin: 0">
-                <span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined empty" style="font-size: 10px">star</span>              </div>
+                <span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined empty" style="font-size: 10px">star</span>
+              </div>
               <span class="review-date">June 9, 2026</span>
             </div>
-
             <p class="review-body">This website made it simple for me to verify my vehicle documents and clear my challans without any confusion. Everything was clear and easy to use.</p>
-
             <div class="helpful-row">10 people found this helpful</div>
             <div class="helpful-actions">
-              <div class="helpful-row" style="margin: 0">
-                Was this review helpful?
-              </div>
+              <div class="helpful-row" style="margin: 0">Was this review helpful?</div>
               <div class="helpful-btns">
                 <button class="btn-pill">Yes</button>
                 <button class="btn-pill">No</button>
               </div>
             </div>
           </div>
-                    <div class="review-card">
+          <div class="review-card">
             <div class="reviewer-header">
               <div class="reviewer-info">
                 <div class="reviewer-avatar" style="background: #e53935">K</div>
@@ -915,37 +820,30 @@
               </div>
               <span class="material-symbols-outlined">more_vert</span>
             </div>
-
             <div class="review-sub">
               <div class="rating-stars" style="margin: 0">
-                <span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span>              </div>
+                <span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span><span class="material-symbols-outlined filled" style="font-size: 10px">star</span>
+              </div>
               <span class="review-date">May 30, 2026</span>
             </div>
-
             <p class="review-body">I was able to check my RC details and complete my pending payments quickly. The interface feels trustworthy and saves a lot of time.</p>
-
             <div class="helpful-row">10 people found this helpful</div>
             <div class="helpful-actions">
-              <div class="helpful-row" style="margin: 0">
-                Was this review helpful?
-              </div>
+              <div class="helpful-row" style="margin: 0">Was this review helpful?</div>
               <div class="helpful-btns">
                 <button class="btn-pill">Yes</button>
                 <button class="btn-pill">No</button>
               </div>
             </div>
           </div>
-                  </div>
+        </div>
       </div>
     </div>
 
-    <!-- Fullscreen Viewer Modal -->
     <div class="modal-overlay" id="imageModal">
       <button class="modal-close-btn" onclick="closeModal()">
         <svg viewBox="0 0 24 24" style="width: 24px; height: 24px">
-          <path
-            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-          />
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
         </svg>
       </button>
       <img class="modal-img" id="modalImage" src="" alt="Screenshot" />
@@ -977,19 +875,12 @@
       let touchEndX = 0;
       const swipeThreshold = 50;
 
-      modal.addEventListener(
-        "touchstart",
-        (e) => {
-          touchStartX = e.changedTouches[0].screenX;
-        },
-        { passive: true }
-      );
+      modal.addEventListener("touchstart", (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
       modal.addEventListener("touchend", (e) => {
         touchEndX = e.changedTouches[0].screenX;
-        if (
-          touchEndX < touchStartX - swipeThreshold &&
-          currentIndex < imageArray.length - 1
-        ) {
+        if (touchEndX < touchStartX - swipeThreshold && currentIndex < imageArray.length - 1) {
           currentIndex++;
           modalImg.style.opacity = 0;
           setTimeout(() => {
@@ -1030,5 +921,5 @@
         } else if (e.key === "Escape") closeModal();
       });
     </script>
-</body>
+  </body>
 </html>
